@@ -392,9 +392,7 @@ class ArchiveRepertoryPlugin extends Omeka_Plugin_AbstractPlugin
      */
     protected function _getArchiveFolderName($item)
     {
-        $collectionFolder = $this->_getCollectionFolderName($item);
-        $itemFolder = $this->_getItemFolderName($item);
-        return $collectionFolder . $itemFolder;
+        return '';
     }
 
     /**

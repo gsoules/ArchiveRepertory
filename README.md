@@ -1,6 +1,10 @@
 Archive Repertory (plugin for Omeka)
 ====================================
 
+> This version was adapted for the Southwest Harbor Public Libary (SWHPL). It keeps original names of imported files, but uses Omeka's flat derivative file structure instead of the plugin's hierarchical structure (collection/item/files).
+
+> This source code is a *copy* of [Daniel-KM / ArchiveRepertory](https://github.com/Daniel-KM/ArchiveRepertory) release 2.14 from January 2016. SWHPL adapted the code back then, but only recently started using Git Hub and did not want to fork the current release which has features not needed for or tested by SWHPL. Please let [gsoules](https://github.com/gsoules) know if there is a better way to handle this situation.
+
 [Archive Repertory] is a plugin for [Omeka] that allows Omeka to keep the original names
 of imported files and to put them into a simple and hierarchical structure consisting of:
 "collection / item / files", in order to get readable urls for files and to avoid
