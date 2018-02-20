@@ -295,31 +295,7 @@
             </p>
         </div>
     </div>
-    <div class='field'>
-        <div class="two columns alpha">
-            <?php echo $this->formLabel('archive_repertory_legal_text',
-                __('Legal agreement')); ?>
-        </div>
-        <div class='inputs five columns omega'>
-            <div class='input-block'>
-                <?php echo $this->formTextarea(
-                    'archive_repertory_legal_text',
-                    get_option('archive_repertory_legal_text'),
-                    array(
-                        'rows' => 5,
-                        'cols' => 60,
-                        'class' => array('textinput', 'html-editor'),
-                     )
-                ); ?>
-                <p class="explanation">
-                    <?php echo __('This text will be shown beside the legal checkbox to download a file.'); ?>
-                    <?php echo ' ' . __("Let empty if you don't want to use a legal agreement."); ?>
-                </p>
-            </div>
-        </div>
-    </div>
 </fieldset>
-<?php echo js_tag('vendor/tiny_mce/tiny_mce'); ?>
 <script type="text/javascript">
     var dropCollection = document.getElementById("archive_repertory_collection_folder");
     var fieldCollectionPrefix = document.getElementById("collection-prefix");
